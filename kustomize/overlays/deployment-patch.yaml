@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: deployment
+  namespace: default
+spec: 
+  template:
+    spec:
+      containers:
+      - name: sample-app
+        image: 821604620465.dkr.ecr.ap-northeast-2.amazonaws.com/jeanne-ecr
+      imagePullSecrets:
+      - name: ecr-regcred

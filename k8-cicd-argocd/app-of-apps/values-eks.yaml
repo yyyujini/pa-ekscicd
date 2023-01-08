@@ -1,0 +1,31 @@
+repoURL: 'https://github.com/yyyujini/eks-cicd.git'
+apps:
+  - name: demo
+    project: dev
+    namespace: default
+    source:
+      path: demo
+  # - name: prometheus-operator
+  #   project: dev
+  #   namespace: prom
+  #   source:
+  #     path: kube-prometheus-stack
+  #     customValues: true
+  #     values:
+  #       - values-local.yaml
+  # - name: prometheus
+  #   project: dev
+  #   namespace: prom
+  #   source:
+  #     path: prometheus
+  #     customValues: true
+  #     values:
+  #       - values-local.yaml
+  # - name: grafana
+  #   project: dev
+  #   namespace: grafana
+  #   source:
+  #     path: grafana
+  #     customValues: true
+  #     values:
+  #       - values-local.yaml
