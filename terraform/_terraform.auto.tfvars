@@ -4,8 +4,8 @@ owner                           = "yj"
 region                          = "ap-northeast-2"
 
 ############### VPC
-vpc_id                          = "vpc-"
-eks_subnet_ids                  = [ "subnet-", "subnet-"]
+vpc_id                          = "vpc-01fbe7d2613c0a133-"
+eks_subnet_ids                  = [ "subnet-04a8d4f9d4902aa72", "	subnet-01e0df9a9fa0f5ce3"]
 azs                             = [ "ap-northeast-2a", "ap-northeast-2c" ]
 
 ############### EKS Cluster
