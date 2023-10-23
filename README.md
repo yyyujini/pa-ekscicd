@@ -20,12 +20,6 @@
 	~~~
 	brew install git
 	~~~
-- git clone
-
-	~~~
-	git clone https://github.com/thingsflow/eks-cicd-handson.git
-	# 본 핸즈온은 public repo 기준으로 작성했습니다.
-	~~~
 
 ## Terraform을 활용한 EKS 구축
 ### EKS 스펙
@@ -51,6 +45,4 @@ terraform apply
 # 약 10분 정도 소요
 ~~~
 
-자세한 설명은 Thingsflow tech 블로그를 확인하세요.
-[tech.blog](https://techblog.thingsflow.com/tech/review/EKS_%EA%B5%AC%EC%B6%95%EA%B3%BC-CICD-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EA%B5%AC%EC%B6%95-%ED%95%B8%EC%A6%88%EC%98%A8/)
 # pa-ekscicd
